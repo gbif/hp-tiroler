@@ -57,36 +57,53 @@ var siteConfig = {
     "stickyOffset": "0px"
   },
   "maps": {
+    "locale": "de",// map labels: en OR de
     "mapStyles": {
       "defaultProjection": "MERCATOR",
-      "defaultMapStyle": "BRIGHT",
+      "defaultMapStyle": "NATURAL",
       "options": {
-        "MERCATOR": [
+        "ARCTIC": [
+          "NATURAL",
+          "BRIGHT"
+        ],
+        "PLATE_CAREE": [
+          "NATURAL",
           "BRIGHT",
-          "NATURAL"
+          "DARK"
+        ],
+        "MERCATOR": [
+          "NATURAL",
+          "BRIGHT",
+          "SATELLITE",
+          "DARK",
+        ],
+        "ANTARCTIC": [
+          "NATURAL",
+          "BRIGHT",
+          "DARK"
         ]
       }
-    }
+    },
   },
   "languages": [
+    {
+      "code": "de",
+      "localeCode": "de",
+      "label": "Deutsch",
+      "default": true,
+      "textDirection": "ltr",
+      "iso3LetterCode": "deu",
+      "cmsLocale": "en-GB",
+      "gbifOrgLocalePrefix": "",
+      "mapTileLocale": "de"
+    },
     {
       "code": "en",
       "localeCode": "en",
       "label": "English",
-      "default": true,
-      "textDirection": "ltr",
-      "iso3LetterCode": "eng",
-      "cmsLocale": "en-GB",
-      "gbifOrgLocalePrefix": "",
-      "mapTileLocale": "en"
-    },
-    {
-      "code": "da",
-      "localeCode": "da",
-      "label": "Dansk",
       "default": false,
       "textDirection": "ltr",
-      "iso3LetterCode": "dan",
+      "iso3LetterCode": "eng",
       "cmsLocale": "en-GB",
       "gbifOrgLocalePrefix": "",
       "mapTileLocale": "en"
@@ -98,9 +115,7 @@ var siteConfig = {
       "type": "in",
       "key": "publishingOrg",
       "values": [
-        "760d5f24-4c04-40da-9646-1b2c935da502",
-        "2e7df380-8356-4533-bcb3-5459e23c794e",
-        "8e1a97a0-3ca8-11d9-8439-b8a03c50a862"
+        "f9912a00-84a9-11d9-8952-b8a03c50a862"
       ]
     },
     "highlightedFilters": [
