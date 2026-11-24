@@ -3,7 +3,7 @@ lang-ref: home
 layout: home
 title: Biodiversitätsdatenbanke der Tiroler Landesmuseen
 description: Entdecken Sie die biologische Vielfalt Österreichs
-background: /assets/images/main-page/templates/w1600h800.png
+background: /assets/images/mainpage/20261124_134316.jpg
 imageLicense: None for this image
 height: 70vh
 cta:
