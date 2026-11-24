@@ -19,7 +19,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Biodiversitätsdatenbanken" # the title of your site should go here
+title: "&nbsp;Biodiversitätsdatenbanken" # the title of your site should go here
 email: r.unterasinger@tiroler-landesmuseen.at
 description: >- # this means to ignore newlines (until baseurl:)
 Biodiversitätsdatenbanke der Tiroler Landesmuseen mit Sammlungs- und Beobachtungsdaten, Schwerpunkt Österreich
@@ -30,13 +30,13 @@ url: "https://tiroler.hp.gbif.org/" # the base hostname & protocol for your site
 email: r.unterasinger@tiroler-landesmuseen.at                                      # Social icon in footer
 twitter_username: yourname # if you have an account you want to link to. Else comment this line out
 github_username:  yourname # if you have an account you want to link to. Else comment this line out
-bluesky_username: romediojose.bsky.social                             # Social icon in footer
+bluesky_username:                            # Social icon in footer
 youtube_username: yourname                              # Social icon in footer
 facebook_username: yourname                             # Social icon in footer
 flickr_username: yourname                               # Social icon in footer
 instagram_username: yourname                              # Social icon in footer
-mastodon_url: https://something.goes/@here                # Social icon in footer
-linkedin_url: https://www.linkedin.com/company/yourname # Social icon in footer
+mastodon_url:                # Social icon in footer
+linkedin_url:  # Social icon in footer
 
 # Build settings
 theme: minima
@@ -49,7 +49,7 @@ remote_theme: gbif/jekyll-hp-base-theme
 algae:
   rootLang: en
   # latestPostLimit: 2
-  logo: /assets/images/logo.jpg  # Logo in navbar, will be displayed with 28px height
+  logo:  # Logo in navbar, will be displayed with 28px height
   logoAndTitle: true           # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
