@@ -15,8 +15,6 @@ cta:
 permalink: /
 ---
 
-Homepage der Tiroler Landesmuseen:
-
-https://www.tiroler-landesmuseen.at/
+Homepage der Tiroler Landesmuseen: [Homepage](https://www.tiroler-landesmuseen.at)
 
 
