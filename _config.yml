@@ -19,7 +19,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Biodiversitätsdatenbanken" # the title of your site should go here
+title: "&nbspBiodiversitätsdatenbanken" # the title of your site should go here
 email: r.unterasinger@tiroler-landesmuseen.at
 description: Biodiversitätsdatenbanken der Tiroler Landesmuseen mit Sammlungs- und Beobachtungsdaten, Schwerpunkt Österreich
 baseurl: "" # the subpath of your site, e.g. /blog
