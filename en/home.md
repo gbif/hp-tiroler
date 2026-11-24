@@ -1,9 +1,9 @@
 ---
 lang-ref: home
 layout: home
-title: My headline
-description: Lorem markdownum spatium limes indefessus neque *at* orat aestuat
-background: /assets/images/placeholders/templates/w1600h800.png
+title: Biodiversitätsdatenbanke der Tiroler Landesmuseen
+description: Entdecken Sie die biologische Vielfalt Österreichs
+background: /assets/images/main-page/templates/w1600h800.png
 imageLicense: None for this image
 height: 70vh
 cta:
